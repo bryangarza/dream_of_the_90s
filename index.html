@@ -1,0 +1,147 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <style>
+     body {
+       font-family: "Comic Sans MS", cursive, sans-serif;
+       /* background-color: pink; */
+       font-weight: bold;
+       background-image: url("img/bugging.gif");
+       background-repeat: repeat-;
+     }
+
+     .greeting {
+       background-image: url("img/hi5.gif");
+       background-repeat: repeat-;
+     }
+
+     .backgroundRed{
+       background: #3f0;
+     }
+
+     #content {
+       -webkit-transition: background 1.0s ease-in-out;
+       -moz-transition:    background 1.0s ease-in-out;
+       -ms-transition:     background 1.0s ease-in-out;
+       transition:         background 1.0s ease-in-out;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <div style="background-color: green">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/0.gif">
+        <img src="img/uc/1.gif">
+        <img src="img/uc/2.gif">
+        <img src="img/uc/3.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+
+      </div>
+      <div style="background-color: blue">
+        <img src="img/uc/3.gif">
+        <img src="img/uc/4.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/6.gif">
+        <img src="img/uc/7.gif">
+        <img src="img/uc/8.gif">
+        <img src="img/uc/9.gif">
+        <img src="img/uc/10.gif">
+        <img src="img/uc/11.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/r.gif">
+        <img src="img/uc/g.gif">
+        <img src="img/uc/y.gif">
+        <img src="img/uc/r.gif">
+      </div>
+      <marquee direction="right" scrollamount="30">
+        <img src="img/lambo.gif">
+        <img src="img/uc/cute-baby.gif">
+        <img src="img/lambo.gif">
+        <img src="img/uc/cute-baby.gif">
+        <img src="img/lambo.gif">
+        <img src="img/uc/cute-baby.gif">
+        <img src="img/purple-flurp.gif">
+        <br>
+      </marquee>
+      <div class="greeting" style="background-color: red">
+        <marquee scrollamount="10">
+          <span style="background-color: green; font-size: 69px">
+            Welcome to my page
+          </span>
+        </marquee>
+        <marquee direction="right" scrollamount="10">
+          <img src="img/batman.gif">
+          <img src="img/flower.gif">
+          <img src="img/bugging.gif">
+          <span style="background-color: purple; font-size: 69px">
+            ƃǝɐd ʎɯ oʇ ɔɯolǝM
+          </span>
+        </marquee>
+      </div>
+      <marquee scrollamount="20">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+        <img src="img/uc/5.gif">
+      </marquee>
+      <!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+      <iframe frameborder="0" height="100%" width="100%"
+      src="https://youtube.com/embed/FE_9CzLCbkY?autoplay=1&controls=0&showinfo=0&autohide=1">
+      </iframe> -->
+      <embed height="0" width="0"
+             src="https://youtube.com/embed/FE_9CzLCbkY?start=47&autoplay=1&controls=0&showinfo=0&autohide=1" >
+
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script>
+     setInterval(function(){
+       $("#content").toggleClass("backgroundRed");
+     },500)
+    </script>
+  </body>
+</html>
